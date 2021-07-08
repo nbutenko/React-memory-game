@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.board {
+  border: solid 2px black;
+  width: 400px;
+  height: 300px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+  margin: 0 auto;
+}
+
+.card-button {
+  background-color: yellow;
+  border: solid 1px black;
+  font-size: 40px;
+  color: black;
+  cursor: pointer;
+}
